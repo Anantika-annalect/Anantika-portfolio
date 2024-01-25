@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <style>
+       @media screen and (max-width: 690px) {
+     .pp-mob {
+        padding: 0px 0px 0px 30px !important;
+        display: block !important;
+      }
+      .content-mob{
+            padding: 0px 30px 0px 30px;
+            display: block !important;
+        }
+        .w200{
+            width: 200px !important;
+        }
+        .flx-n{
+            display: block !important;
+        }
+        .fl-r{
+            display: flex !important;
+            flex-direction: row !important;
+        }
+        .list-style-mob{
+            color: aliceblue !important;
+            padding: 0 0 0 0 !important;
+            font-size: 14px !important;
+            font-weight: bold !important;
+        }
+        .pd10-mob{
+         padding: 0 30px 0 0 !important;
+        }
+        .w500{
+            width: 500px !important;
+        }
+}
         .highlight{
             background-color: rgb(68, 66, 66);
             border-top-right-radius: 345px;
@@ -24,7 +56,6 @@
             padding: 30px;
         }
         .content{
-            width: 50%;
             padding: 0px 30px 0px 30px;;
             display: flex;
             flex-direction: row;
@@ -37,7 +68,7 @@
         }
         .pp{
             /* width: 50%; */
-            padding: 0px 0px 0px 500px;
+            padding: 0px 0px 0px 600px;
             display: flex;
             flex-direction: row;
         }
@@ -63,17 +94,17 @@
     </style>
 </head>
 <body>
-    <div class="header highlight">
-        <div class="content">
-            <ul class="w400">
-            <li class="list-style"><a href="#About" style="text-decoration: none; color: rgb(248, 97, 60);">About</a></li>
-            <li class="list-style"><a href="#Work" style="text-decoration: none; color: rgb(242, 45, 137);">Work Experience</a></li>
-            <li class="list-style"><a href="#Education" style="text-decoration: none; color: rgb(248, 248, 63);">Education</a></li>
-            <li class="list-style"><a href="#Skills" style="text-decoration: none; color: rgb(47, 224, 47);">Skills and Expertise</a></li>
-            <li class="list-style"><a href="#Awards" style="text-decoration: none; color: rgb(76, 207, 240)">Awards</a></li>
+    <div class="flx-n header highlight">
+        <div class="content-mob content">
+            <ul class="fl-r pd10-mob w200 w400">
+            <li class="list-style-mob list-style"><a class="pd10-mob" href="#About" style="text-decoration: none; color: rgb(248, 97, 60);">About</a></li>
+            <li class="list-style-mob list-style"><a class="pd10-mob" href="#Work" style="text-decoration: none; color: rgb(242, 45, 137);">Work Experience</a></li>
+            <li class="list-style-mob list-style"><a class="pd10-mob" href="#Education" style="text-decoration: none; color: rgb(248, 248, 63);">Education</a></li>
+            <li class="list-style-mob list-style"><a class="pd10-mob" href="#Skills" style="text-decoration: none; color: rgb(47, 224, 47);">Skills and Expertise</a></li>
+            <li class="list-style-mob list-style"><a class="pd10-mob" href="#Awards" style="text-decoration: none; color: rgb(76, 207, 240)">Awards</a></li>
         </ul>
         </div>
-        <div class="pp"><a href="About_Me.html" target="_blank"><img src="images/profile_picture_round.jpeg" alt="Profile Picture" width="300" height="auto"></a></div>
+        <div class="pp-mob pp"><a href="About_Me.html" target="_blank"><img class="w500" src="images/profile_picture_round.jpeg" alt="Profile Picture" width="300" height="auto" style="max-width: 300px;"></a></div>
     </div>
     <h1 id="About" style="color: rgb(248, 97, 60)">Summary</h1>
     <p>I am self-motivated and hard-working individual with proficiency in HTML, CSS and JavaScript, as well as a strong ability to communicate and work in a team effectively. I am a highly competent IT professional with a proven track record in designing and developing Emails, Templates and Banners in a SFMC Platform, where we can design and customise all the templates as per clients requirements.</p>
